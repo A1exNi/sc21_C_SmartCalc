@@ -1,0 +1,2231 @@
+{
+   __sup_gtk_widget_realize
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   fun:gtk_widget_realize
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gtk_widget_realize2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   fun:gtk_widget_realize
+}
+
+{
+   __sup_gtk_widget_realize3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   fun:gtk_widget_realize
+}
+
+{
+   __sup_gtk_widget_realize4
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   fun:gtk_widget_realize
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_g_signal_emit
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+}
+
+{
+   __sup_g_signal_emit2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slice_alloc
+   fun:g_hash_table_new_full
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+}
+
+{
+   __sup_g_signal_emit3
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   fun:g_slice_alloc
+   fun:g_list_prepend
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   fun:gtk_widget_map
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+}
+
+{
+   __sup_g_signal_emit4
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   fun:g_slice_alloc
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_lines_readonly
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_closure_invoke
+   obj:/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+}
+
+{
+   __sup_gsk_renderer_new_for_surface
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_new_for_surface2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_new_for_surface3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_new_for_surface4
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+}
+
+{
+   __sup_gsk_renderer_new_for_surface5
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_new_for_surface6
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_new_for_surface7
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+}
+
+{
+   __sup_gsk_renderer_new_for_surface8
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_new_for_surface9
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+}
+
+{
+   __sup_gsk_renderer_new_for_surface10
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+}
+
+{
+   __sup_gsk_renderer_new_for_surface11
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:realloc
+   fun:g_realloc
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   fun:g_hash_table_insert
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_new_for_surface12
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_new_for_surface13
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:memalign
+   fun:posix_memalign
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+}
+
+{
+   __sup_gsk_renderer_new_for_surface14
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+}
+
+{
+   __sup_gsk_renderer_render
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+}
+
+{
+   __sup_gsk_renderer_render2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_render3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_render4
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+}
+
+{
+   __sup_gsk_renderer_render5
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_render6
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+}
+
+{
+   __sup_gsk_renderer_render7
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+}
+
+{
+   __sup_gsk_renderer_render8
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_render9
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_render10
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_render11
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+}
+
+{
+   __sup_gsk_renderer_render12
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_render13
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_strdup
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+}
+
+{
+   __sup_strdup2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_strdup3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_strdup4
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+}
+
+{
+   __sup_g_signal_emit_valist
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_strdup
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gdk_x11_display_open
+   fun:gdk_display_manager_open_display
+   fun:gtk_init_check
+   fun:gtk_init
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_signal_emit_valist
+}
+
+{
+   __sup_g_signal_emit_valist2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_signal_emit_valist
+}
+
+{
+   __sup_g_signal_emit_valist3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+   fun:gsk_renderer_new_for_surface
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_signal_emit_valist
+}
+
+{
+   __sup_g_signal_emit_valist4
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_render
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_signal_emit_valist
+}
+
+{
+   __sup_calloc
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+}
+
+{
+   __sup_calloc2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+}
+
+{
+   __sup_calloc3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_calloc4
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_calloc5
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gdk_gl_context_make_current
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_calloc6
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_calloc7
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_calloc8
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gsk_renderer_realize
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+}
+
+
+{
+   __sup_gsk_renderer_realize2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+}
+
+{
+   __sup_gsk_renderer_realize3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+}
+
+{
+   __sup_gsk_renderer_realize4
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:memalign
+   fun:posix_memalign
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gsk_renderer_realize
+}
+
+{
+   __sup__Znwm
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+}
+
+{
+   __sup__Znwm2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+
+{
+   __sup_malloc
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+}
+
+{
+   __sup_malloc2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_malloc3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_malloc4
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+}
+
+{
+   __sup_malloc5
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+}
+
+{
+   __sup_malloc6
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+}
+
+{
+   __sup_malloc7
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_malloc8
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_posix_memalign
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:memalign
+   fun:posix_memalign
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_posix_memalign2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:memalign
+   fun:posix_memalign
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+}
+
+{
+   __sup_realloc
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+}
+
+{
+   __sup_realloc2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_realloc3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_realloc4
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+}
+
+{
+   __sup_gtk_at_context_create
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_type_create_instance
+   obj:/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4
+   fun:g_object_new_valist
+   fun:g_object_new
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gtk_at_context_create
+}
+
+{
+   __sup_gtk_at_context_create2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_type_create_instance
+   obj:/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4
+   fun:g_object_new_valist
+   fun:g_object_new
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gtk_at_context_create
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gtk_at_context_create3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_type_create_instance
+   obj:/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4
+   fun:g_object_new_valist
+   fun:g_object_new
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gtk_at_context_create
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_g_input_stream_read_bytes_async
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   fun:g_slice_alloc
+   fun:g_list_append
+   fun:g_queue_push_tail
+   fun:g_async_queue_push_front_unlocked
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_input_stream_read_async
+   fun:g_input_stream_read_bytes_async
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4
+}
+
+{
+   __sup_gtk_init
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   fun:epoxy_glx_version
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gdk_display_prepare_gl
+   fun:gdk_x11_display_open
+   fun:gdk_display_manager_open_display
+   fun:gtk_init_check
+   fun:gtk_init
+}
+
+{
+   __sup_gtk_init2
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:g_type_create_instance
+   obj:/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gdk_x11_display_open
+   fun:gdk_display_manager_open_display
+   fun:gtk_init_check
+   fun:gtk_init
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gtk_init_check
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   fun:epoxy_glx_version
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gdk_display_prepare_gl
+   fun:gdk_x11_display_open
+   fun:gdk_display_manager_open_display
+   fun:gtk_init_check
+}
+
+{
+   __sup_gtk_init_check2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:allocate_stack
+   fun:pthread_create@@GLIBC_2.34
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   fun:g_thread_new
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   fun:g_type_create_instance
+   obj:/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:pango_cairo_font_map_get_default
+   fun:gtk_init_check
+}
+
+{
+   __sup_gdk_gl_context_realize
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gdk_gl_context_realize
+}
+
+{
+   __sup_gdk_gl_context_make_current
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gdk_gl_context_make_current
+}
+
+{
+   __sup_dlclose@@GLIBC_2.34
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:malloc
+   fun:_dl_close_worker.part.0.isra.0
+   fun:_dl_close_worker
+   fun:_dl_close
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:_dlerror_run
+   fun:dlclose@@GLIBC_2.34
+   obj:/usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_XML_ParseBuffer
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+   obj:/usr/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+   obj:/usr/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+   fun:XML_ParseBuffer
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+}
+
+{
+   __sup_g_closure_invoke
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slice_alloc
+   fun:g_list_append
+   fun:g_queue_push_tail
+   fun:g_async_queue_push_front_unlocked
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_closure_invoke
+}
+
+{
+   __sup_g_application_register
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:allocate_stack
+   fun:pthread_create@@GLIBC_2.34
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   fun:g_thread_new
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   obj:/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4
+   fun:g_task_get_type
+   obj:/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4
+   fun:g_bus_get_sync
+   fun:g_application_register
+   obj:/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4
+}
+
+{
+   __sup_main
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:allocate_stack
+   fun:pthread_create@@GLIBC_2.34
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   fun:g_thread_new
+   obj:/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4
+   fun:g_bus_get_sync
+   fun:g_application_register
+   obj:/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4
+   fun:g_application_run
+   fun:main
+}
+
+{
+   __sup_g_dbus_proxy_new_for_bus
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:allocate_stack
+   fun:pthread_create@@GLIBC_2.34
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   fun:g_thread_pool_push
+   fun:g_task_run_in_thread
+   obj:/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4
+   fun:g_bus_get
+   fun:g_async_initable_new_valist_async
+   fun:g_async_initable_new_async
+   fun:g_dbus_proxy_new_for_bus
+}
+
+{
+   __sup_pango_layout_get_size
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:pango_language_from_string
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_script_get_sample_language
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_pango_layout_get_size2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+}
+
+{
+   __sup_pango_layout_get_size3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   fun:FcValueSave
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcFontRenderPrepare
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+}
+
+{
+   __sup_pango_layout_get_size4
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+}
+
+{
+   __sup_pango_layout_get_size5
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_pango_layout_get_size6
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   fun:FcValueSave
+   fun:FcFontRenderPrepare
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_pango_layout_get_size7
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:allocate_stack
+   fun:pthread_create@@GLIBC_2.34
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   fun:g_thread_new
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_pango_layout_get_size8
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcFontRenderPrepare
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_pango_layout_get_size9
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:FcLangSetCopy
+   fun:FcValueSave
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcFontRenderPrepare
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+}
+
+{
+   __sup_pango_layout_get_size10
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:FcFontRenderPrepare
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+
+
+
+{
+   __sup_pango_layout_get_size10
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcFontRenderPrepare
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_pango_layout_get_size11
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcFontRenderPrepare
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gtk_layout_manager_measure
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:pango_language_from_string
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gtk_layout_manager_measure
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_gtk_layout_manager_measure2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_is_wrapped
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gtk_layout_manager_measure
+}
+
+{
+   __sup_gtk_layout_manager_measure3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_size
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:gtk_layout_manager_measure
+}
+
+{
+   __sup_LLVMGetPointerToGlobal
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   fun:_ZN4llvm19RTDyldMemoryManager16registerEHFramesEPhmm
+   fun:_ZN4llvm14RuntimeDyldELF16registerEHFramesEv
+   fun:_ZN4llvm5MCJIT21finalizeLoadedModulesEv
+   fun:_ZN4llvm5MCJIT14finalizeObjectEv
+   fun:LLVMGetPointerToGlobal
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_LLVMGetPointerToGlobal2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   fun:_ZN4llvm19RTDyldMemoryManager16registerEHFramesEPhmm
+   fun:_ZN4llvm14RuntimeDyldELF16registerEHFramesEv
+   fun:_ZN4llvm5MCJIT21finalizeLoadedModulesEv
+   fun:_ZN4llvm5MCJIT14finalizeObjectEv
+   fun:LLVMGetPointerToGlobal
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_LLVMGetPointerToGlobal2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   fun:_ZN4llvm19RTDyldMemoryManager16registerEHFramesEPhmm
+   fun:_ZN4llvm14RuntimeDyldELF16registerEHFramesEv
+   fun:_ZN4llvm5MCJIT21finalizeLoadedModulesEv
+   fun:_ZN4llvm5MCJIT14finalizeObjectEv
+   fun:LLVMGetPointerToGlobal
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+   obj:/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+}
+
+{
+   __sup_gtk_widget_get_pango_context
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:pango_language_from_string
+   fun:pango_language_get_default
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:g_type_create_instance
+   obj:/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:pango_font_map_create_context
+   fun:gtk_widget_create_pango_context
+   fun:gtk_widget_get_pango_context
+}
+
+{
+   __sup_clone
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:FcFontRenderPrepare
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   fun:start_thread
+   fun:clone
+}
+
+{
+   __sup_clone2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:FcFontSetSort
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   fun:start_thread
+   fun:clone
+}
+
+{
+   __sup_clone3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:realloc
+   fun:FcFontSetAdd
+   fun:FcFontSetSort
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   fun:start_thread
+   fun:clone
+}
+
+{
+   __sup_clone4
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcFontRenderPrepare
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   fun:start_thread
+   fun:clone
+}
+
+{
+   __sup_g_malloc0
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+}
+
+{
+   __sup_g_realloc
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:realloc
+   fun:g_realloc
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_pango_layout_is_wrapped
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_is_wrapped
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_pango_layout_is_wrapped2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcConfigSubstituteWithPat
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_is_wrapped
+}
+
+{
+   __sup_pango_layout_is_wrapped3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcConfigSubstituteWithPat
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_is_wrapped
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_pango_layout_is_wrapped4
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcConfigSubstituteWithPat
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_is_wrapped
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_FcConfigSubstituteWithPat
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcConfigSubstituteWithPat
+}
+
+{
+   __sup_FcConfigSubstituteWithPat2
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcConfigSubstituteWithPat
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+}
+
+{
+   __sup_FcConfigSubstituteWithPat3
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcConfigSubstituteWithPat
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+}
+
+{
+   __sup_FcConfigSubstituteWithPat4
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcConfigSubstituteWithPat
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+}
+
+{
+   __sup_draw_arrow
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcPatternDuplicate
+   obj:/usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+   obj:/usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+   fun:cairo_toy_font_face_create
+   obj:/usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+   obj:/usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+   obj:/usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+   fun:cairo_show_text
+   fun:draw_arrow
+}
+
+{
+   __sup_gtk_widget_create_pango_layout
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   fun:g_slice_alloc
+   fun:g_slice_alloc0
+   fun:g_type_create_instance
+   obj:/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:pango_layout_new
+   fun:gtk_widget_create_pango_layout
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+}
+
+{
+   __sup_g_closure_invoke
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   fun:g_slice_alloc
+   fun:g_slist_prepend
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   fun:pango_layout_get_lines_readonly
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   obj:/usr/lib/x86_64-linux-gnu/libgtk-4.so.1.600.6
+   fun:g_closure_invoke
+   obj:/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4
+}
+
+{
+   __sup_FcFontRenderPrepare
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+   fun:FcFontRenderPrepare
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.6
+   obj:/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.6
+}
